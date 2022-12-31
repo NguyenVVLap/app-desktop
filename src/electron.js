@@ -13,10 +13,11 @@ function createWindow() {
     autoHideMenuBar: true,
     // fullscreen: true,
     fullscreenable: true,
+    resizable: false,
     // resizable: false,
-    // simpleFullscreen: true,
+    simpleFullscreen: true,
   });
-  // win.maximize();
+  win.maximize();
   // and load the index.html of the app.
   // win.loadFile("index.html");
   win.loadURL(
